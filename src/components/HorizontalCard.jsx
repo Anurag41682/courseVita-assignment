@@ -49,8 +49,8 @@ const HorizontalCard = ({ title, content, image }) => {
         <IconButton
           sx={{
             position: "relative",
-            bottom: -90,
-            left: 10,
+            bottom: -80,
+            left: 20,
             zIndex: 10,
             backgroundColor: "grey",
           }}
@@ -60,8 +60,8 @@ const HorizontalCard = ({ title, content, image }) => {
         <IconButton
           sx={{
             position: "relative",
-            bottom: -90,
-            right: -220,
+            bottom: -80,
+            right: -210,
             zIndex: 10,
           }}
         >
