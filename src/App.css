@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scroll-card {
+  width: 300px;
+  margin: 0 20px;
+  flex-shrink: 0;
+}
+
+.scroll-card:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  animation: scroll 15s linear infinite;
+}
+
+.scroll-container:hover {
+  animation-play-state: paused;
+}

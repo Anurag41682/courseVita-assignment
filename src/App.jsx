@@ -1,12 +1,10 @@
 import "./App.css";
-
-import { Button } from "@mui/material";
-
+import ScrollContainer from "./components/ScrollContainer";
 function App() {
   return (
-    <>
-      <Button>HI</Button>
-    </>
+    <div className="app">
+      <ScrollContainer />
+    </div>
   );
 }
 
