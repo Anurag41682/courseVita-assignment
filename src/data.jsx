@@ -5,13 +5,13 @@ import Image3 from "./assets/3rd.jpg";
 const cardsData = [
   {
     id: 1,
-    title: "Become successfull data analyst",
+    title: "Become successful data analyst",
     description: "starts from 18th, july 2024",
     image: Image1,
   },
   {
     id: 2,
-    title: "open your wings join internvita",
+    title: "Open your wings join Internvita",
     description: "starts from 18th, july 2024",
     image: Image2,
   },
@@ -23,13 +23,13 @@ const cardsData = [
   },
   {
     id: 4,
-    title: "open your wings join internvita",
+    title: "Open your wings join Internvita",
     description: "starts from 18th, july 2024",
     image: Image2,
   },
   {
     id: 5,
-    title: "Become successfull data analyst",
+    title: "Become successful data analyst",
     description: "starts from 18th, july 2024",
     image: Image1,
   },
