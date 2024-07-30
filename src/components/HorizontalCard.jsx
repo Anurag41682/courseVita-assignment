@@ -65,7 +65,7 @@ const HorizontalCard = ({ title, content, image }) => {
             zIndex: 10,
           }}
         >
-          <Button variant="contained">Contained</Button>
+          <Button variant="contained">Up Coming</Button>
         </IconButton>
       </CardMedia>
     </Card>
